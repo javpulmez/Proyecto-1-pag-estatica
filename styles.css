@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>¡Hola!</h1>
+                    <p class="lead">
+                        Soy Javier Meza, estudiante de Ingenieria, aprendiendo cosas nuevas cada dia!
+                    </p>
+                    <a href="#contacto" class="btn btn-light btn-lg me-3">Contácto</a>
+                    <a href="#proyectos" class="btn btn-outline-light btn-lg">Ver Proyectos</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="bi bi-code-slash hero-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead text-center mb-4">
+                        Soy un programador con más de 2 años de experiencia en la creación de sitios web y apps sencillas modernas.
+                    </p>
+                    <p class="text-center">
+                        Me especializo en tecnologías front-end, con un enfoque en crear experiencias de usuario excepcionales. 
+                        Disfruto aprendiendo nuevas tecnologías y manteniéndome actualizado con las últimas tendencias en desarrollo web.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-lightbulb text-primary feature-icon"></i>
+                    <h4 class="mt-3">Creativo</h4>
+                    <p>Soluciones innovadoras para problemas complejos</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-code-square text-primary feature-icon"></i>
+                    <h4 class="mt-3">Desarrollador</h4>
+                    <p>Código limpio y optimizado</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-people text-primary feature-icon"></i>
+                    <h4 class="mt-3">Trabajo en Equipo</h4>
+                    <p>Colaboración efectiva con equipos multidisciplinarios</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Habilidades en Programacion Web:</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">PHP & MySQL</span>
+                            <span class="skill-percentage">55%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">Laravel y Laragon</span>
+                            <span class="skill-percentage">40%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">BootStrap</span>
+                            <span class="skill-percentage">30%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 30%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">20%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 20%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados:</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-cart text-primary project-icon"></i>
+                            <h5 class="card-title mt-3">Sistema de Tickets de aereopuerto</h5>
+                            <p class="card-text">Plataforma de comercio electrónico completa con carrito de compras, pasarela de pagos y panel de administración.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">C</span>
+                                <span class="badge bg-secondary me-1">Python</span>
+                                <span class="badge bg-success">HTML & CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-calendar-event text-primary project-icon"></i>
+                            <h5 class="card-title mt-3">RUMI</h5>
+                            <p class="card-text">Sistema de gestión de tareas y proyectos con dashboard interactivo y notificaciones en tiempo real.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">HTML & CSS</span>
+                                <span class="badge bg-secondary me-1">PHP</span>
+                                <span class="badge bg-success">PhpMyAdmin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-phone text-primary project-icon"></i>
+                            <h5 class="card-title mt-3">CBTis App</h5>
+                            <p class="card-text">Aplicación móvil híbrida para gestión de finanzas personales con gráficos y reportes detallados.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-secondary me-1">Netbeans</span>
+                                <span class="badge bg-success">Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-white">Contáctame</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-envelope-fill contact-icon"></i>
+                    <h5 class="mt-3">Email</h5>
+                    <p class="contact-info">contacto@ejemplo.com</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-geo-alt-fill contact-icon"></i>
+                    <h5 class="mt-3">Ubicación</h5>
+                    <p class="contact-info">Ciudad, País</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="bi bi-github contact-icon"></i>
+                    <h5 class="mt-3">GitHub</h5>
+                    <p class="contact-info">github.com/usuario</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="social-links mb-3">
+                <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle (solo para que funcione el menú móvil) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
